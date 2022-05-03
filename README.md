@@ -6,6 +6,13 @@ cd ros_darwin
 
 sudo chmod 755 setup.sh
 bash setup.sh
+
+```
+If you see any lock error, please try
+```
+sudo rm -r /var/lib/dpkg/lock*
+sudo dpkg --configure -a
+./setup.sh
 ```
 
 ## To launch the darwin robot inside a small house
