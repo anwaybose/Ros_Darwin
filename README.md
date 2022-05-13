@@ -19,7 +19,7 @@ sudo dpkg --configure -a
 ```
 roslaunch darwin_gazebo darwin_gazebo.launch
 ```
-!(/relative/darwin_small_house.png?raw=true "Optional Title") 
+!![Alt Image text](darwin_small_house.png?raw=true) 
 
 ## To see in the image viewer,
 open a new terminal and
